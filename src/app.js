@@ -5,19 +5,19 @@ import './database'
 
 class App {
   constructor() {
-    this.server = express();
+    this.app = express();
 
     this.middlewares();
     this.routes();
   }
 
   middlewares() {
-    this.server.use(express.json());
+    this.app.use(express.json());
   }
 
   routes() {
-    this.server.use(routes);
+    this.app.use(routes);
   }
 }
 
-export default new App().server;
+export default new App().app;
