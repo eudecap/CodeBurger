@@ -9,7 +9,7 @@ User
 
 class Database{ // TODA VEZ QUE A CLASSE E INSTÂNCIADA ELE CHAMA O METODO CONSTRUCTOR
     constructor(){ // O METODO CONSTRUCTOR CHAMA O INIT
-        this.init
+        this.init()
     }
 
     init(){ // AKI ESTA A "CONFIGURAÇÃO( configuração entre aspas )" DO INIT, E ACIMA ELE APENAS CHAMADO PELO METODO CONSTRUCTOR.
